@@ -27,7 +27,7 @@ let command = client.commands.get(cmd)
 
 
 //finding command from aliases
-if (!command) command = client.commands.get(client.aliases, get(cmd))
+if (!command) command = client.commands.get(client.aliases,get(cmd))
 
 
 if (!command) return
